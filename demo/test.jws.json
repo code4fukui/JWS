@@ -1,0 +1,9 @@
+{
+  "header": {
+    "publicKey": "IGO-AnSpjFXeBA3y4ZwjatF8MjVPqttJDMiyxWqmSbk",
+    "encoder": "https://github.com/code4fukui/JWS/"
+  },
+  "protected": "eyJhbGciOiJFUzI1NiJ9",
+  "payload": "eyJpYXQiOjE2NzE2MzUzMDAsImV4cCI6MTcwNjE5NTMwMCwiaXNzIjoiZnVrdW5vLmppZy5qcCJ9",
+  "signature": "DszJDHIoXfxVdlC1girVaYDeKPheG72RRHdA8wIC7f9SGeOqMP3I9DU63kQ4ubh-cn0zKfFc4CoSuS90cxjaCQ"
+}
