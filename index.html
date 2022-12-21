@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>JWS verifier</title>
+</head><body>
+<h1>JWS verifier</h1>
+<textarea id=ta></textarea><br>
+<div id=chk></div>
+<hr>
+<a href=https://github.com/code4fukui/JWS/>src on GitHub</a>
+
+<script type="module">
+import { setFileDropHandler } from "https://js.sabae.cc/setFileDropHandler.js";
+import { JWS } from "https://code4fukui.github.io/JWS/JWS.js";
+
+setFileDropHandler(ta, (buf) => {
+  const jws = JSON.parse(new TextDecoder().decode(new Uint8Array(buf)));
+  const data = JWS.decode(jws);
+  try {
+    ta.value = JSON.stringify(data, null, 2);
+    chk.textContent = "検証済み";
+  } catch (e) {
+    ta.value = JSON.stringify(jws, null, 2);
+    chk.textContent = "検証できませんでした";
+  }
+});
+</script>
+
+<style>
+textarea {
+  width: 90vw;
+  height: 70vh;
+}
+</style>
