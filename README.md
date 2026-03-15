@@ -1,7 +1,6 @@
 # JWS beta
 
-## Demo
-The `index.html` file provides a simple web-based JWS verifier.
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
 ## Features
 - Implements a compact JSON Web Signature (JWS) format using Ed25519 signatures

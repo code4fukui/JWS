@@ -1,6 +1,6 @@
 # JWS beta
 
-JWSは、JSONWeb Signatureの簡易実装です。JWSを使用してデータの署名・検証ができます。
+JWSは、JSON Web Signatureの簡易実装です。JWSを使用してデータの署名と検証ができます。
 
 ## デモ
 JWSの検証デモページがあります。JWSファイルをドロップすると、検証結果が表示されます。
