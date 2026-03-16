@@ -2,10 +2,6 @@
 
 JWSは、JSON Web Signatureの簡易実装です。JWSを使用してデータの署名と検証ができます。
 
-## デモ
-JWSの検証デモページがあります。JWSファイルをドロップすると、検証結果が表示されます。
-https://code4fukui.github.io/JWS/
-
 ## 機能
 - JWSの生成と検証
 - Ed25519署名アルゴリズム

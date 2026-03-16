@@ -25,4 +25,4 @@ const verified = JWS.decode(jws);
 The `demo/` directory contains sample scripts demonstrating how to generate, verify, and inspect JWS tokens.
 
 ## License
-This project is licensed under the MIT License.
+MIT License — see [LICENSE](LICENSE).
